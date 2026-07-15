@@ -1,8 +1,10 @@
 # COSMOS Intelligent Tutoring System (ITS)
 
-> A comprehensive AI-powered educational platform with a multi-agent RAG chatbot, ML-based grade prediction, adaptive learning roadmaps, academic performance tracking, and a full-featured admin panel — all orchestrated through a modular monorepo architecture.
+> **COSMOS-ITS** (Collaborative Orchestration System for Multi-Agent Optimization and Synthesis for Intelligent Tutoring Systems) — A secure, multi-agent intelligent tutoring system that reduces hallucination rates and improves syllabus-aligned response accuracy from 65% (generic LLM baseline) to 92%, while delivering adaptive, always-available personalized tutoring at scale.
 
-COSMOS-ITS is an end-to-end intelligent tutoring system designed for university-level education. It combines a **FastAPI microservice backend** (`cosmos-its-server`) with a **Next.js admin and student portal** (`cosmos-admin-panel`) to deliver a seamless experience for both administrators and students.
+Traditional university education struggles to deliver scalable and personalized support. Existing intelligent tutoring platforms relying on generic large language models (LLMs) often suffer from hallucinations, lack curriculum alignment, and fail to adapt to individual learning trajectories. **COSMOS-ITS** addresses these limitations through a multi-agent architecture that integrates a **LangGraph orchestration framework** for coordinating specialized domain agents, a **Pinecone-backed Retrieval-Augmented Generation (RAG) pipeline** for syllabus-grounded responses, and a **hybrid grade prediction model** combining Gradient Boosting and Multi-Layer Perceptron (MLP) neural networks — trained on 1,000 synthetic student records with 20 engineered features, achieving **90.40% prediction accuracy**.
+
+The system is delivered as a monorepo combining a **FastAPI microservice backend** (`cosmos-its-server`) with a **Next.js admin and student portal** (`cosmos-admin-panel`). A comprehensive 20-feature security framework — including role-based access control (RBAC), context isolation, and prompt injection defense — ensures academic integrity and data privacy. Load testing confirmed system stability with **zero failures under 50 concurrent users**, and the modular architecture supports easy extensibility to new courses, making COSMOS-ITS a viable foundation for AI-powered personalized university education.
 
 ---
 
