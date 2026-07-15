@@ -1,3 +1,5 @@
+> **⚠️ Production status**: The current production URL is no longer functional. This project was built using free-tier resources across all integrated services — **MongoDB** (shared cluster), **Pinecone** (starter index), and **OpenAI** (API credits). Running this project locally or deploying it requires active/resumed MongoDB and Pinecone instances with valid API keys, as well as available OpenAI credits for LLM and embedding operations.
+
 # COSMOS Intelligent Tutoring System (ITS)
 
 > **COSMOS-ITS** (Collaborative Orchestration System for Multi-Agent Optimization and Synthesis for Intelligent Tutoring Systems) — A secure, multi-agent intelligent tutoring system that reduces hallucination rates and improves syllabus-aligned response accuracy from 65% (generic LLM baseline) to 92%, while delivering adaptive, always-available personalized tutoring at scale.
